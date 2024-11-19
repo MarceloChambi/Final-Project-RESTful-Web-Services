@@ -1,0 +1,64 @@
+{
+    "info": {
+        "_postman_id": "631fae66-6657-4588-9b8d-6e2d06aa9c98",
+        "name": "Final Project - RESTful Web Services",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+        "_exporter_id": "18730630"
+    },
+    "item": [
+        {
+            "name": "/personas",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"firstName\": \" \",\r\n    \"lastName\": \"Cena\",\r\n    \"age\": 0,\r\n    \"email\": \"Jhon.Cenagmail.com\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/personas"
+            },
+            "response": []
+        },
+        {
+            "name": "/personas/{id}",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:8080/personas/4"
+            },
+            "response": []
+        },
+        {
+            "name": "/personas/{id}",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"firstName\": \"Jhon\",\r\n    \"lastName\": \"Cena\",\r\n    \"age\": 41,\r\n    \"email\": \"Jhon.Cena@gmail.com\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/personas/4"
+            },
+            "response": []
+        },
+        {
+            "name": "/personas/{id}",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": "http://localhost:8080/personas/1"
+            },
+            "response": []
+        }
+    ]
+}
