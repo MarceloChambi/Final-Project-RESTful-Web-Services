@@ -1,2 +1,2 @@
 # Final-Project-RESTful-Web-Services
-Repositorio para el desarrollo de una API RESTful de gestión de personas
+El proyecto incluye la implementación de un CRUD completo con validaciones utilizando Spring Boot, siguiendo las mejores prácticas de diseño y desarrollo de servicios RESTful. Incluye pruebas funcionales realizadas con Postman y soporte para validación de datos con anotaciones como @Valid. Este repositorio fue creado como parte de un proyecto académico en el curso "Servicios Web RESTful".
